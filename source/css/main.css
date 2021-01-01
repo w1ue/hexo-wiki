@@ -3,6 +3,7 @@
 	margin: 0;
 	padding: 0;
 	border: 0;
+	font-family : "Lucida Sans Unicode", "Lucida Grande", sans-serif
 }
 
 html, body, #main {
@@ -119,13 +120,11 @@ aside ul li a {
 }
 aside ul li a:hover {
 	color: #ccc;
-	border-bottom: 1px solid #ccc;
 	cursor:pointer;
 }
 aside #tree .active a,
 aside #tree .active a:hover {
 	color: #87daff;
-	border-bottom: 1px solid #87daff;
 }
 /* #################### 侧边栏 #################### */
 

@@ -1,40 +1,17 @@
 # hexo-wiki
 
-## 介绍
 
-为了做个自己的知识管理，用了 Hexo ，但是没有发现自己心仪的主题，就自己做了一个。
-
-预览地址： [https://itabyss.github.io/](https://itabyss.github.io/)
-
-教程文章：[https://www.cnblogs.com/yyhh/p/11058985.html](https://www.cnblogs.com/yyhh/p/11058985.html)
-
-![img](img.png)
+## 1. 介绍
+想搞一个 blog 型的个人知识管理网页，找了半天，发现这个主题接近一些，jQuery 从零开始造轮子还是有点累，遂 fork 了一个前人的仓库～
 
 
-
-## 创建Hexo
-
-```bash
-mkdir ~/blog/hexo
-cd ~/blog/hexo
-hexo init
-```
-
-## 下载主题
-```bash
-git clone https://github.com/ITAbyss/hexo-wiki.git themes/hexo-wiki
-```
-
-## 下载必要的组件
-
-首先得有『<a href="https://nodejs.org" target="_blank">node.js</a>』来执行『npm』
-
-- <a href="https://www.baidu.com" target="_blank">hexo-asset-image</a> 获取文件相对路径下同名文件夹的图片
-
+## 2. 工程配置
+安装关键依赖
 ```bash
 npm install hexo-directory-category --save
 ```
 
+修改工程配置
 『_config.yml』其中必要修改的有以下
 
  ```yml
@@ -52,3 +29,7 @@ highlight:
 theme: hexo-wiki
  ```
 
+
+## 3. 修改
++ 调整字体和样式
++ 修复模版解析 bug
