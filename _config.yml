@@ -8,3 +8,6 @@ menus:
 
 links:
   github: https://github.com/w1ue/
+
+busuanzi:
+  enable: true

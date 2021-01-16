@@ -1,7 +1,14 @@
-<div id="article">
-	<%- page.content %>
-</div>
 <div>
 	<span id="post-author"><%- theme.author %></span>
 	<span id="post-date"><%- date(page.date, "YYYY-MM-DD HH:mm:ss") %></span>
+	<% if (theme.busuanzi && theme.busuanzi.enable){ %>
+		<!-- 不蒜子统计 -->
+		<span id="busuanzi_container_page_pv" style='display:none'>
+			  <i class="icon-smile icon"></i> 阅读数：<span id="busuanzi_value_page_pv"></span>次
+		</span>
+	<% } %>
+</div>
+
+<div id="article">
+	<%- page.content %>
 </div>
